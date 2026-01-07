@@ -1,0 +1,13 @@
+# Snowman's Land
+short-name: sl
+full-name: Snowman's Land
+texture-file: ["/texture.inc.c"]
+area-count: 2
+objects: []
+shared-path: []
+# loaded files
+skybox-bin: ccm
+texture-bin: snow
+effects: true
+actor-bins: [group7]
+common-bin: [common0]

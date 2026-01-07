@@ -20,7 +20,7 @@ DEFINE_LEVEL("SELECT ROOM",    LEVEL_CASTLE,           COURSE_NONE,     castle_i
 STUB_LEVEL(  "",         LEVEL_ENDING,           COURSE_CAKE_END,                             20000,    0x00, 0x00, 0x00, _,         _)
 STUB_LEVEL(  "SABAKU", LEVEL_SSL,              COURSE_SSL,                                  15000,    0x00, 0x00, 0x00, _,         _)
 STUB_LEVEL(  "BATTLE FIELD",   LEVEL_BOB,              COURSE_BOB,                                  15000,    0x00, 0x00, 0x00, _,         _)
-STUB_LEVEL(  "YUKIYAMA2",      LEVEL_SL,               COURSE_SL,                                   14000,    0x00, 0x00, 0x00, _,         _)
+DEFINE_LEVEL(  "YUKIYAMA2",      LEVEL_SL,               COURSE_SL,     sl,       snow,               14000,    0x10, 0x28, 0x28, _,         _)
 STUB_LEVEL(  "POOL KAI",       LEVEL_WDW,              COURSE_WDW,                                  17000,    0x00, 0x00, 0x00, _,         _)
 DEFINE_LEVEL("TINBOTU", LEVEL_JRB,              COURSE_JRB,      jrb,              water,    20000,    0x00, 0x00, 0x00, _,         _)
 DEFINE_LEVEL("BIG WORLD",      LEVEL_THI,              COURSE_THI,      thi,              grass,    20000,    0x00, 0x00, 0x00, _,         _)

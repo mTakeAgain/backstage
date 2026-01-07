@@ -99,6 +99,26 @@ extern const u8 sky_09007000[];
 extern const u8 sky_09007800[];
 extern const u8 sky_09008000[];
 
+// snow
+extern const u8 snow_09000000[];
+extern const u8 snow_09000800[];
+extern const u8 snow_09001000[];
+extern const u8 snow_09002000[];
+extern const u8 snow_09002800[];
+extern const u8 snow_09003000[];
+extern const u8 snow_09003800[];
+extern const u8 snow_09004000[];
+extern const u8 snow_09004800[];
+extern const u8 snow_09005000[];
+extern const u8 snow_09005800[];
+extern const u8 snow_09006000[];
+extern const u8 snow_09006800[];
+extern const u8 snow_09007000[];
+extern const u8 snow_09008000[];
+extern const u8 snow_09008800[];
+extern const u8 snow_09009000[];
+extern const u8 snow_09009800[];
+
 // slide
 extern const u8 slide_09000800[];
 extern const u8 slide_09002800[];

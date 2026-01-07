@@ -1221,7 +1221,7 @@ void update_mario_button_inputs(struct MarioState *m) {
         m->framesSinceB++;
     }
 
-    if (gPlayer1Controller->buttonPressed & L_TRIG) {
+    /*if (gPlayer1Controller->buttonPressed & L_TRIG) {
         play_sound(SOUND_MENU_STAR_SOUND, gGlobalSoundSource);
         m->particleFlags |= PARTICLE_MIST_CIRCLE;
         if (gIsLuigi == FALSE) {
@@ -1235,7 +1235,7 @@ void update_mario_button_inputs(struct MarioState *m) {
         m->marioObj->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_MARIO];
     } else {
         m->marioObj->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_LUIGI]; 
-    }
+    }*/
 }
 
 /**

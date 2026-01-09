@@ -133,6 +133,8 @@ void bhv_flame_moving_forward_growing_init(void);
 void bhv_flame_moving_forward_growing_loop(void);
 void bhv_flame_bowser_init(void);
 void bhv_flame_bowser_loop(void);
+void bhv_mips_init(void);
+void bhv_mips_loop(void);
 void bhv_flame_large_burning_out_init(void);
 void bhv_blue_fish_movement_loop(void);
 void bhv_tank_fish_group_loop(void);

@@ -112,6 +112,7 @@ const LevelScript level_yajima_test_entry[] = {
 
     AREA(/*index*/ 1, RCP_Stage32Scene1),
 		//seqActor(S_pushblock,	1242, 200, 1959,   0,0,0,  0,0,0, e_pushblock	)
+		seqActor(S_monky			,      0,   200,     0,   0,0,0,  0,0,0, e_monky			)
 
 #if 0																				  
 
@@ -169,7 +170,6 @@ const LevelScript level_yajima_test_entry[] = {
 
 			seqActor(S_NULL				,	  200,    0,      0,  0,0,0,  0,1,0, e_hanswitch 	 )
 			seqActor(S_NULL				,	  600,    0,      0,  0,0,0,  0,0,0, e_hanswitch 	 )
-
 			seqActor(S_monky			,      0,   200,     0,   0,0,0,  0,0,0, e_monky			)
 			seqActor(S_horiage			,   2000,   200,  2000,   0,0,0,  0,0,0, e_horiage			)
 			seqActor(S_motosman			,	    0,    0, -1500,   0,0,0,  0,0,0, e_motos			)

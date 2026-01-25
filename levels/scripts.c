@@ -14,6 +14,7 @@
 #include "actors/group1.h"
 #include "actors/group2.h"
 #include "actors/group4.h"
+#include "actors/group6.h"
 #include "actors/group7.h"
 #include "actors/group9.h"
 #include "actors/group10.h"
@@ -172,6 +173,14 @@ const LevelScript script_func_global_4[] = {
 
 const LevelScript script_func_global_5[] = {
     LOAD_MODEL_FROM_GEO(MODEL_SUSHI,                   RCP_HmsEnemyShark),
+    RETURN(),
+};
+
+const LevelScript script_func_global_7[] = {
+    //LOAD_MODEL_FROM_DL (MODEL_DL_MONTY_MOLE_HOLE,      monty_mole_hole_seg5_dl_05000840, LAYER_TRANSPARENT_DECAL),
+    //LOAD_MODEL_FROM_GEO(MODEL_MONTY_MOLE,              monty_mole_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_UKIKI,                     RCP_HmsEnemymonky_F_run),
+    //LOAD_MODEL_FROM_GEO(MODEL_FWOOSH,                  fwoosh_geo),
     RETURN(),
 };
 

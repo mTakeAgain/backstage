@@ -68,7 +68,7 @@
 #define e_pushblock bhvPushableMetalBox
 #define e_hibiblock bhvBreakableBox
 #define e_noko bhvKoopa
-#define e_monky bhvUkiki
+#define e_monky bhvMacroUkiki
 #define e_manycoin bhvCoinFormation
 #define e_carryboy bhvChuckya
 #define e_bikkuri_switch bhvCapSwitch
@@ -96,8 +96,8 @@ const LevelScript level_yajima_test_entry[] = {
     LOAD_MIO0(        /*seg*/ 0x07, _yajima_test_segment_7SegmentRomStart, _yajima_test_segment_7SegmentRomEnd),
     LOAD_MIO0(        /*seg*/ 0x05, _group7_mio0SegmentRomStart, _group7_mio0SegmentRomEnd),
     LOAD_RAW(         /*seg*/ 0x0C, _group7_geoSegmentRomStart,  _group7_geoSegmentRomEnd),
-    //LOAD_MIO0(        /*seg*/ 0x06, _group6_mio0SegmentRomStart, _group6_mio0SegmentRomEnd),
-    //LOAD_RAW(         /*seg*/ 0x0D, _group6_geoSegmentRomStart,  _group6_geoSegmentRomEnd),
+    LOAD_MIO0(        /*seg*/ 0x05, _group6_mio0SegmentRomStart, _group6_mio0SegmentRomEnd),
+    LOAD_RAW(         /*seg*/ 0x0C, _group6_geoSegmentRomStart,  _group6_geoSegmentRomEnd),
     LOAD_MIO0(        /*seg*/ 0x08, _common0_mio0SegmentRomStart, _common0_mio0SegmentRomEnd),
     LOAD_RAW(         /*seg*/ 0x0F, _common0_geoSegmentRomStart,  _common0_geoSegmentRomEnd),
     //LOAD_MIO0         /*seg*/ 0x09, _group8_mio0SegmentRomStart, _group8_mio0SegmentRomEnd),
@@ -107,12 +107,14 @@ const LevelScript level_yajima_test_entry[] = {
 
     MARIO(/*model*/ MODEL_MARIO, /*behParam*/ 0x00000001, /*beh*/ bhvMario),
     JUMP_LINK(script_func_global_1),
+	JUMP_LINK(script_func_global_7),
     JUMP_LINK(script_func_global_8),
 //    JUMP_LINK(script_func_global_9),
 
     AREA(/*index*/ 1, RCP_Stage32Scene1),
 		//seqActor(S_pushblock,	1242, 200, 1959,   0,0,0,  0,0,0, e_pushblock	)
 		seqActor(S_monky			,      0,   200,     0,   0,0,0,  0,0,0, e_monky			)
+		//OBJECT(/*model*/ MODEL_UKIKI,              /*pos*/   0,  200,   0, /*angle*/ 0,   0, 0, /*bhvParam*/ BPARAM2(UKIKI_BP_CAGE), /*bhv*/ bhvUkiki),
 
 #if 0																				  
 

@@ -8,6 +8,4 @@
 #include "common1.h"
 #include "group6.h"
 
-#include "monty_mole/geo.inc.c"
 #include "ukiki/monkey.hms"
-#include "fwoosh/geo.inc.c"

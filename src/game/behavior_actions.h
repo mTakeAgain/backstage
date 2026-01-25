@@ -172,6 +172,8 @@ void bhv_lll_sinking_rectangular_platform_loop(void);
 void bhv_lll_sinking_square_platforms_loop(void);
 void bhv_mips_init(void);
 void bhv_mips_loop(void);
+void bhv_ukiki_init(void);
+void bhv_ukiki_loop(void);
 void bhv_koopa_shell_loop(void);
 void bhv_koopa_shell_flame_loop(void);
 s32 mario_moving_fast_enough_to_make_piranha_plant_bite(void);
